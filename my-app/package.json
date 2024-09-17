@@ -9,14 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@hookform/resolvers": "^3.9.0",
+    "@mui/material": "^5.16.7",
+    "@mui/x-date-pickers": "^7.17.0",
+    "@reduxjs/toolkit": "^2.2.7",
+    "date-fns": "^3.6.0",
+    "libphonenumber-js": "^1.11.8",
+    "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.6"
+    "react-hook-form": "^7.53.0",
+    "react-redux": "^9.1.2",
+    "redux-persist": "^6.0.0",
+    "sweetalert2": "^11.14.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.6"
+    "eslint-config-next": "14.2.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
